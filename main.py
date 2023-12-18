@@ -5,7 +5,7 @@ import io
 
 # SIDEBAR
 st.sidebar.header("Login")
-url = st.sidebar.text_input("URL", "avatar-mixer.dev.gke-standard.maika.ai")
+url = st.sidebar.text_input("URL")
 username = st.sidebar.text_input("Username")
 password = st.sidebar.text_input("Password")
 
